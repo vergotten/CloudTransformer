@@ -13,11 +13,11 @@ This utilization of the CloudTransformer approach showcases the potential of tra
 
 ## 1. Requirements
 
-PyTorch >= 1.7.1;
-python >= 3.7;
-CUDA >= 10.0;
-GCC >= 5.4 
-torchvision;
+* PyTorch >= 1.7.1;
+* python >= 3.7;
+* CUDA >= 10.0;
+* GCC >= 5.4 
+* torchvision;
 
 ```
 pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
