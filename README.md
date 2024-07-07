@@ -24,22 +24,26 @@ pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio==0.7.2 -f htt
 ```
 
 ```
-conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 -c pytorch
-```
-
-```
 pip install -r requirements.txt
 ```
 
 ```
-# Chamfer Distance & emd
+# scripts/install.sh
+
+#!/bin/bash
+
+# Install Chamfer Distance
 cd ./extensions/chamfer_dist
 python setup.py install --user
-cd ./extensions/emd
+
+# Install emd
+cd ../emd
 python setup.py install --user
-# PointNet++
+
+# Install PointNet++
 pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
-# GPU kNN
+
+# Install GPU kNN
 pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
 ```
 
