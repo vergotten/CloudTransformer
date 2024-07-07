@@ -13,10 +13,10 @@ This utilization of the CloudTransformer approach showcases the potential of tra
 
 ## 1. Requirements
 
-PyTorch >= 1.7.1; # 1.7.0
+PyTorch >= 1.7.1;
 python >= 3.7;
-CUDA >= 10.0; # 9.0
-GCC >= 5.4 # 4.9;
+CUDA >= 10.0;
+GCC >= 5.4 
 torchvision;
 
 ```
