@@ -1,0 +1,8 @@
+make_commits.sh
+.idea/
+extensions/chamfer_dist/build
+extensions/chamfer_dist/chamfer.egg-info
+extensions/chamfer_dist/dist
+extensions/emd/build
+extensions/emd/dist
+extensions/emd/emd_ext.egg-info
