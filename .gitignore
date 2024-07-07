@@ -7,4 +7,4 @@ extensions/emd/build
 extensions/emd/dist
 extensions/emd/emd_ext.egg-info
 extensions/chamfer_dist/__pycache__
-extensions/emd//__pycache__
+extensions/emd/__pycache__
